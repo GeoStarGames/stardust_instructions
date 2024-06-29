@@ -2,9 +2,9 @@
 
 Instructions on how to use STARDUST physics library.
 
-<# #> - info \n
-/// - example \n
-[ ] - optional \n
+<# #> - info
+/// - example
+[ ] - optional
 
 For library examples check out "Demos" folder.
 
