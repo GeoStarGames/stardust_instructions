@@ -2,9 +2,9 @@
 
 Instructions on how to use STARDUST physics library.
 
-<# #> - info
-/// - example
-[ ] - optional
+<# #> - info \n
+/// - example \n
+[ ] - optional \n
 
 For library examples check out "Demos" folder.
 
@@ -301,6 +301,7 @@ draw_liquid(water, sh_sd_water, pr_trianglelist);
 Must Be Placed In: Draw Event (or draw functions)
 
 Source: StarDust -> Physics -> Water -> draw_liquid | and | StarDust -> Physics -> Shaders | and | StarDust -> Physics -> Vertex
+
 --------------------------------------------------------------------------------------------------------------------------------------------
 Phyics Library - STARDUST
 
