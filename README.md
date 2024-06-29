@@ -3,7 +3,9 @@
 Instructions on how to use STARDUST physics library.
 
 <# #> - info
+
 /// - example
+
 [ ] - optional
 
 For library examples check out "Demos" folder.
@@ -13,26 +15,35 @@ Inside Stardust -> global_physics_object -> create event: you can customize your
 Project Setup: (You can delete "Demos" folder if you don't need it)
 
 Create an object, you can call it whatever you want (example: physics, obj_physics)
+
 Inside physics object add "Create Event" and write: physics_init();
 
 <# physics_init() - it will just create "global_physics_object" where some physics data is stored. #>
 
 After that you just need to drag physics object into a room.
+
 Make sure from rooms "Instance Creation Order" physics object is at the top.
+
 Now you can use STARDUST functions.
 
 Functions:
 
 1) ------------ create_object(mass, id, COR) ------------
+
 mass -> objects mass
+
 id -> objects "id"
+
 COR -> coefficient of restitution (number between 0 - 1, it is how bouncy an object is)
 
 This function returns an physics object with mass, speed and other physics properties.
 
 example:
+
 ///
+
 object = create_object(2, id, 0.8);
+
 ///
 
 Must Be Placed In: Create Event (or must be run once)
@@ -40,9 +51,11 @@ Must Be Placed In: Create Event (or must be run once)
 Source: StarDust -> Physics -> Objects -> create_object
 
 2) ------------ create_static(id) ------------
+
 id -> objects "id"
 
 This function adds object into statics array. this means physics objects will be able to collide
+
 with this static object.
 
 example:
